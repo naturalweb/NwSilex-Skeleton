@@ -1,8 +1,10 @@
 {
     "name": "naturalweb/nwsilex-skeleton",
     "description": "Aplicação destina-se a ser usado como um ponto de partida para quem quer usar o framework Silex, com o pacote NwSilex.",
+    "license": "MIT",
     "require": {
-        "naturalweb/nwsilex": "dev-master"
+        "naturalweb/nwsilex": "dev-master",
+        "symfony/console": ">=2.3,<2.6-dev"
     },
     
     "require-dev" : {
