@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block container %}
+
+	<div align="center">
+		<h1>Acesso Restrito</h1>
+		<p>Pagina solicitada você não tem permissão de acesso.</p>
+	</div>
+
+	{% include 'errors/_exceptions.html' %}
+	
+{% endblock %}

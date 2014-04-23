@@ -1,0 +1,13 @@
+    {% if app.debug == true %}
+	<div>
+		<br />
+		<hr />
+		<br />
+		<h3>Exception: {{ get_class(exception) }} : {{ code }}</h3>
+		<h3>{{ exception.getMessage }} in {{ exception.getFile }}:{{ exception.getLine }}</h3>
+		<br />
+		<code>
+			{{ exception.getTraceAsString|nl2br }}
+		</code>
+	</div>
+	{% endif %}

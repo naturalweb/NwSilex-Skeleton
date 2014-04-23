@@ -3,7 +3,7 @@ NwSilex-Skeleton
 
 Introduction
 ------------
-Esta aplicação destina-se a ser usado como um ponto de partida para quem quer usar o framework Silex, com o pacote NWSilex.
+Esta aplicação destina-se a ser usado como um ponto de partida para quem quer usar o framework Silex, com o pacote NwSilex.
 
 Installation
 ------------

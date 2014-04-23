@@ -1,0 +1,20 @@
+{
+    "name": "naturalweb/nwsilex-skeleton",
+    "description": "Aplicação destina-se a ser usado como um ponto de partida para quem quer usar o framework Silex, com o pacote NwSilex.",
+    "require": {
+        "naturalweb/nwsilex": "dev-master"
+    },
+    
+    "require-dev" : {
+        "phpmd/phpmd" : "1.4.*",
+        "phpunit/phpunit" : ">=3.7,<4"
+    },
+    
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "tests/"
+        ]
+    }
+}

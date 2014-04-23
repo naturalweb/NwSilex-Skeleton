@@ -1,0 +1,6 @@
+<?php
+// Debug
+//$app['debug'] = true;
+
+// Enviroment
+//$app['app.env'] = 'development';
