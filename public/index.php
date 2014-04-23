@@ -7,4 +7,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = require_once __DIR__ . '/../app/boot/start.php';
 
-$app->run();
+if ($app['debug'] OR !isset($app['http_cache'])) {
+    $app->run();
+} else {
+    $app['http_cache']->run();
+}

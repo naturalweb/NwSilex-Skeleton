@@ -32,6 +32,7 @@ $app->register(new SessionServiceProvider());
 //Cache
 $app->register(new HttpCacheServiceProvider(), array(
     'http_cache.cache_dir' => ROOT_PATH.'/storage/cache/',
+    'http_cache.esi'       => null,
 ));
 
 // Eloquent ORM
